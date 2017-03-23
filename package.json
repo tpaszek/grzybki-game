@@ -1,0 +1,28 @@
+{
+  "name": "grzybki",
+  "version": "1.0.0",
+  "description": "Grzybki multiplayer game api",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "cookie-parser": "1.4.3",
+    "express": "4.15.2",
+    "good-guy-http": "1.9.0",
+    "uuid": "3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Tomasz Paszek",
+  "license": "ISC"
+}
